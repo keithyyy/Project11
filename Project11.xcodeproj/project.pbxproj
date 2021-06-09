@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		2D378F32267058F400CDCECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D378F31267058F400CDCECF /* AppDelegate.swift */; };
 		2D378F34267058F400CDCECF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F33267058F400CDCECF /* GameScene.sks */; };
-		2D378F36267058F400CDCECF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F35267058F400CDCECF /* Actions.sks */; };
 		2D378F38267058F400CDCECF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D378F37267058F400CDCECF /* GameScene.swift */; };
 		2D378F3A267058F400CDCECF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D378F39267058F400CDCECF /* GameViewController.swift */; };
 		2D378F3D267058F400CDCECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F3B267058F400CDCECF /* Main.storyboard */; };
 		2D378F3F267058F700CDCECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F3E267058F700CDCECF /* Assets.xcassets */; };
+		2D378F47267062E500CDCECF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F46267062E500CDCECF /* Launch.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D378F2E267058F400CDCECF /* Project11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D378F31267058F400CDCECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D378F33267058F400CDCECF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		2D378F35267058F400CDCECF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2D378F37267058F400CDCECF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2D378F39267058F400CDCECF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2D378F3C267058F400CDCECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D378F3E267058F700CDCECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D378F40267058F700CDCECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D378F46267062E500CDCECF /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				2D378F31267058F400CDCECF /* AppDelegate.swift */,
 				2D378F33267058F400CDCECF /* GameScene.sks */,
-				2D378F35267058F400CDCECF /* Actions.sks */,
 				2D378F37267058F400CDCECF /* GameScene.swift */,
 				2D378F39267058F400CDCECF /* GameViewController.swift */,
 				2D378F3B267058F400CDCECF /* Main.storyboard */,
 				2D378F3E267058F700CDCECF /* Assets.xcassets */,
 				2D378F40267058F700CDCECF /* Info.plist */,
+				2D378F46267062E500CDCECF /* Launch.storyboard */,
 			);
 			path = Project11;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 				2D378F3D267058F400CDCECF /* Main.storyboard in Resources */,
 				2D378F34267058F400CDCECF /* GameScene.sks in Resources */,
 				2D378F3F267058F700CDCECF /* Assets.xcassets in Resources */,
-				2D378F36267058F400CDCECF /* Actions.sks in Resources */,
+				2D378F47267062E500CDCECF /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73ZGCP94RC;
 				INFOPLIST_FILE = Project11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.keithcrooc.Project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -301,7 +303,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73ZGCP94RC;
 				INFOPLIST_FILE = Project11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.keithcrooc.Project11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
