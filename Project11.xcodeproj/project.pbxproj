@@ -14,6 +14,7 @@
 		2D378F3D267058F400CDCECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F3B267058F400CDCECF /* Main.storyboard */; };
 		2D378F3F267058F700CDCECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F3E267058F700CDCECF /* Assets.xcassets */; };
 		2D378F47267062E500CDCECF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F46267062E500CDCECF /* Launch.storyboard */; };
+		2D378F4926723AF700CDCECF /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D378F4826723AF700CDCECF /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2D378F3E267058F700CDCECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D378F40267058F700CDCECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D378F46267062E500CDCECF /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		2D378F4826723AF700CDCECF /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2D378F3E267058F700CDCECF /* Assets.xcassets */,
 				2D378F40267058F700CDCECF /* Info.plist */,
 				2D378F46267062E500CDCECF /* Launch.storyboard */,
+				2D378F4826723AF700CDCECF /* FireParticles.sks */,
 			);
 			path = Project11;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				2D378F3D267058F400CDCECF /* Main.storyboard in Resources */,
 				2D378F34267058F400CDCECF /* GameScene.sks in Resources */,
+				2D378F4926723AF700CDCECF /* FireParticles.sks in Resources */,
 				2D378F3F267058F700CDCECF /* Assets.xcassets in Resources */,
 				2D378F47267062E500CDCECF /* Launch.storyboard in Resources */,
 			);
