@@ -89,7 +89,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 addChild(box)
             } else {
                 
-                let ball = SKSpriteNode(imageNamed: "ballRed")
+                let ballOptions = ["ballRed","ballBlue","ballYellow","ballGreen", "ballGrey","ballPurple","ballCyan"]
+                
+                let ball = SKSpriteNode(imageNamed: ballOptions.randomElement()!)
                 ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
         //        bounciness of a ball
                 ball.physicsBody?.restitution = 0.8
@@ -99,7 +101,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //        "contactTestBitMask" tells us which collisions do you want to know about? By default it's set to nothing.
         //        this way we can detect collisions.
                 ball.physicsBody?.contactTestBitMask = ball.physicsBody?.collisionBitMask ?? 0
-                ball.position = location
+                ball.position = CGPoint(x: location.x, y: 768)
                 ball.name = "ball"
                 addChild(ball)
             }
